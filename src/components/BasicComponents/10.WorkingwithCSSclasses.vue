@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="main_content_two">
-      <p>Interpolation</p>
+      <p>Dynamic Attributes</p>
     </div>
   </div>
 </template>
@@ -15,5 +15,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+.main_content_two{
+  p{
+    color: white;
+  }
+}
 </style>
