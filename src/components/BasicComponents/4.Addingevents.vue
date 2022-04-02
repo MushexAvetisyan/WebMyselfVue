@@ -1,7 +1,8 @@
 <template>
   <div>
+    <h1>Adding Events</h1>
     <div class="main_content_two">
-      <p>Dynamic Attributes</p>
+
     </div>
   </div>
 </template>
@@ -15,6 +16,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+h1{
+  color: white;
+}
 .main_content_two{
   p{
     color: white;
